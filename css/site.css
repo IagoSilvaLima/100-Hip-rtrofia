@@ -1,0 +1,115 @@
+html{
+  font-size: 120%;
+}
+
+body{
+  font-family:  'Lato' ,sans-serif;
+}
+
+.titulo{
+  padding: 1.2em 0;
+}
+
+
+.titulo h1{
+  font-size: 220%;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.cabecalho-principal{
+  background-color: #A52A2A;
+  padding: 1em;
+  text-align: center;
+  border-bottom: .5em solid black;
+}
+
+
+.menu-navigation li{
+  display: inline-block;
+  padding: .5em;
+  margin-left: 2em;
+}
+
+.menu-navigation a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.rodape{
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+
+.container a {
+    color: #851944;
+}
+
+.container p{
+  text-align: justify;
+  margin: 1em 0;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  padding: 1em;
+  padding-bottom: 3em;
+
+}
+
+.post{
+  padding: .7em;
+  margin-bottom: 2em;
+  border: .1em solid #ccc;
+}
+
+
+.post h2{
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+.leia-mais{
+  padding: .3em;
+  margin: .5em;
+  display: block;
+  font-size: 120%;
+  text-align: center;
+  background-color: #E6E7E8;
+}
+
+
+.icones-navegacao{
+  position: absolute;
+  right: 1em;
+  top: 1.5em;
+}
+
+
+
+.icones-navegacao li{
+  display: inline-block;
+}
+
+.icones-navegacao a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-indent: -9999999px;
+}
+
+
+
+.twitter{
+  background: url(../img/twitter.png);
+}
